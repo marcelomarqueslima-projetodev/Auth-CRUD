@@ -1,11 +1,11 @@
 using SiteMercado.Api.Extensions;
-using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using HealthChecks.UI.Client;
 
 namespace SiteMercado.Api.Configuration
 {
@@ -48,9 +48,8 @@ namespace SiteMercado.Api.Configuration
                     builder =>
                         builder
                             .WithMethods("GET")
-                            .WithOrigins("http://desenvolvedor.io")
+                            .WithOrigins("http://localhost/")
                             .SetIsOriginAllowedToAllowWildcardSubdomains()
-                            //.WithHeaders(HeaderNames.ContentType, "x-custom-header")
                             .AllowAnyHeader());
             });
 
@@ -68,8 +67,7 @@ namespace SiteMercado.Api.Configuration
             }
             else
             {
-                app.UseCors("Development"); // Usar apenas nas demos => Configuração Ideal: Production
-                app.UseHsts();
+                app.UseCors("Development"); 
             }
 
             app.UseMiddleware<ExceptionMiddleware>();

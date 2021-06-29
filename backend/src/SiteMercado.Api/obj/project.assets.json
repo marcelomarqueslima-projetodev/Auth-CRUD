@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "AspNetCore.HealthChecks.SqlServer/5.0.3": {
+      "AspNetCore.HealthChecks.SqlServer/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "2.1.2",
+          "Microsoft.Data.SqlClient": "2.1.0",
           "Microsoft.Extensions.Diagnostics.HealthChecks": "5.0.1"
         },
         "compile": {
@@ -32,6 +32,22 @@
         },
         "runtime": {
           "lib/net5.0/HealthChecks.UI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "AspNetCore.HealthChecks.UI.Client/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "AspNetCore.HealthChecks.UI.Core": "5.0.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/HealthChecks.UI.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/HealthChecks.UI.Client.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -91,6 +107,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Elmah.Io.AspNetCore.dll": {}
+        }
+      },
+      "Elmah.Io.AspNetCore.HealthChecks/3.12.24": {
+        "type": "package",
+        "dependencies": {
+          "Elmah.Io.Client": "[3.11.15, 4.0.0)",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.HealthChecks.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Elmah.Io.AspNetCore.HealthChecks.dll": {}
         }
       },
       "Elmah.Io.Client/3.11.15": {
@@ -358,7 +387,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.SqlClient/2.1.2": {
+      "Microsoft.Data.SqlClient/2.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.1.1",
@@ -1858,14 +1887,14 @@
     }
   },
   "libraries": {
-    "AspNetCore.HealthChecks.SqlServer/5.0.3": {
-      "sha512": "LmrDAsW75EUpoDJTAHLQu3UpAPkbjoJvVlavdfZgOAObjsTIAsibu8gdUytwwUuLrWi2OXoYIWLHmxgUIciBwg==",
+    "AspNetCore.HealthChecks.SqlServer/5.0.1": {
+      "sha512": "UPYUP66ltOcg6fxbPKZMadKxtG9qIdL2objWodo1/M74f+xfDtYy57pxLE5uB56CGhk6SaQ7sAn0nCTlf5flLw==",
       "type": "package",
-      "path": "aspnetcore.healthchecks.sqlserver/5.0.3",
+      "path": "aspnetcore.healthchecks.sqlserver/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "aspnetcore.healthchecks.sqlserver.5.0.3.nupkg.sha512",
+        "aspnetcore.healthchecks.sqlserver.5.0.1.nupkg.sha512",
         "aspnetcore.healthchecks.sqlserver.nuspec",
         "lib/net5.0/HealthChecks.SqlServer.dll",
         "lib/netstandard2.0/HealthChecks.SqlServer.dll"
@@ -1882,6 +1911,18 @@
         "aspnetcore.healthchecks.ui.nuspec",
         "lib/net5.0/HealthChecks.UI.dll",
         "lib/net5.0/HealthChecks.UI.runtimeconfig.json"
+      ]
+    },
+    "AspNetCore.HealthChecks.UI.Client/5.0.1": {
+      "sha512": "bmxam2fOFphbF3NgvSwZAEX7YSGhy8ngIb0WBwR6aI4w5wyXJNftMuI+60bKE4u+/5oEtnVes7YvPuK6Jzpwxw==",
+      "type": "package",
+      "path": "aspnetcore.healthchecks.ui.client/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aspnetcore.healthchecks.ui.client.5.0.1.nupkg.sha512",
+        "aspnetcore.healthchecks.ui.client.nuspec",
+        "lib/net5.0/HealthChecks.UI.Client.dll"
       ]
     },
     "AspNetCore.HealthChecks.UI.Core/5.0.1": {
@@ -1937,6 +1978,20 @@
         "icon.png",
         "lib/netstandard2.0/Elmah.Io.AspNetCore.dll",
         "lib/netstandard2.0/Elmah.Io.AspNetCore.xml"
+      ]
+    },
+    "Elmah.Io.AspNetCore.HealthChecks/3.12.24": {
+      "sha512": "3/n3l6WocAgCzhm8eNHAIcV1a7yJGwE41A0oHeuR2QURH1SQJA2Ompxi9/V5EE5Mu2Eq5zWWjriQ4NtXwoBqqA==",
+      "type": "package",
+      "path": "elmah.io.aspnetcore.healthchecks/3.12.24",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elmah.io.aspnetcore.healthchecks.3.12.24.nupkg.sha512",
+        "elmah.io.aspnetcore.healthchecks.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Elmah.Io.AspNetCore.HealthChecks.dll",
+        "lib/netstandard2.0/Elmah.Io.AspNetCore.HealthChecks.xml"
       ]
     },
     "Elmah.Io.Client/3.11.15": {
@@ -2364,10 +2419,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.SqlClient/2.1.2": {
-      "sha512": "FCR+H1Fs4908IZMBhCBiWbyqc7vTABkF2EF9S/TViCtE6Di0XN+WcKInWOVCfh5qLOQXswHD1b5A4i1d92ubgw==",
+    "Microsoft.Data.SqlClient/2.1.0": {
+      "sha512": "7GFeSy6K9SmlmF9s1YA9C6IeBaQK3/98epgQNB5syHhxsnYb8ssiue6wN7VyaVOzRc9szlUbdP5vZBWkwI5o6g==",
       "type": "package",
-      "path": "microsoft.data.sqlclient/2.1.2",
+      "path": "microsoft.data.sqlclient/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2397,7 +2452,7 @@
         "lib/netstandard2.1/Microsoft.Data.SqlClient.dll",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.pdb",
         "lib/netstandard2.1/Microsoft.Data.SqlClient.xml",
-        "microsoft.data.sqlclient.2.1.2.nupkg.sha512",
+        "microsoft.data.sqlclient.2.1.0.nupkg.sha512",
         "microsoft.data.sqlclient.nuspec",
         "ref/net46/Microsoft.Data.SqlClient.dll",
         "ref/net46/Microsoft.Data.SqlClient.pdb",
@@ -6028,9 +6083,11 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AspNetCore.HealthChecks.SqlServer >= 5.0.3",
+      "AspNetCore.HealthChecks.SqlServer >= 5.0.1",
+      "AspNetCore.HealthChecks.UI.Client >= 5.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Elmah.Io.AspNetCore >= 3.12.24",
+      "Elmah.Io.AspNetCore.HealthChecks >= 3.12.24",
       "Elmah.Io.Extensions.Logging >= 3.10.15",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.7",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.7",
@@ -6095,13 +6152,21 @@
         "dependencies": {
           "AspNetCore.HealthChecks.SqlServer": {
             "target": "Package",
-            "version": "[5.0.3, )"
+            "version": "[5.0.1, )"
+          },
+          "AspNetCore.HealthChecks.UI.Client": {
+            "target": "Package",
+            "version": "[5.0.1, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
           },
           "Elmah.Io.AspNetCore": {
+            "target": "Package",
+            "version": "[3.12.24, )"
+          },
+          "Elmah.Io.AspNetCore.HealthChecks": {
             "target": "Package",
             "version": "[3.12.24, )"
           },
