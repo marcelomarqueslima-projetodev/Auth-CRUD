@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using SiteMercado.Business.Models.Validations.Documentos;
 
 namespace SiteMercado.Business.Models
 {

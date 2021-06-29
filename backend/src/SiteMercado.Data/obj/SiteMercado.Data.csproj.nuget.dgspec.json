@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {}
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {}
   },
   "projects": {
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
-        "projectName": "SiteMercado.Data",
-        "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
+        "projectUniqueName": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
+        "projectName": "SiteMercado.Business",
+        "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
         "packagesPath": "/home/marcelo/.nuget/packages/",
-        "outputPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/obj/",
+        "outputPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcelo/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,94 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
+        "projectName": "SiteMercado.Data",
+        "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
+        "packagesPath": "/home/marcelo/.nuget/packages/",
+        "outputPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/marcelo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
+                "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.sqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

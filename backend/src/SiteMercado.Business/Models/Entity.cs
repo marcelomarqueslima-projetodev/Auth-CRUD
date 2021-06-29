@@ -1,6 +1,6 @@
 using System;
 
-namespace SiteMercado.Business.Models.Validations.Documentos
+namespace SiteMercado.Business.Models
 {
     public abstract class Entity
     {

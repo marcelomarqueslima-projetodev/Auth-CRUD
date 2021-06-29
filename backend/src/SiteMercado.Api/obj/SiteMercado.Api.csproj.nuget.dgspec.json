@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj": {}
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj": {}
   },
   "projects": {
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj": {
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj",
+        "projectUniqueName": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj",
         "projectName": "SiteMercado.Api",
-        "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj",
+        "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Api/SiteMercado.Api.csproj",
         "packagesPath": "/home/marcelo/.nuget/packages/",
-        "outputPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Api/obj/",
+        "outputPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcelo/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
-                "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj"
+              "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
+                "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj"
               },
-              "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
-                "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj"
+              "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
+                "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj"
               }
             }
           }
@@ -45,9 +45,73 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Elmah.Io.AspNetCore": {
+              "target": "Package",
+              "version": "[3.12.24, )"
+            },
+            "Elmah.Io.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.10.15, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "aspnetcore.healthchecks.ui": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             }
           },
           "imports": [
@@ -72,14 +136,14 @@
         }
       }
     },
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
+        "projectUniqueName": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
         "projectName": "SiteMercado.Business",
-        "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
+        "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
         "packagesPath": "/home/marcelo/.nuget/packages/",
-        "outputPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/",
+        "outputPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcelo/.nuget/NuGet/NuGet.Config"
@@ -105,6 +169,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,14 +194,14 @@
         }
       }
     },
-    "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
+    "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
+        "projectUniqueName": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
         "projectName": "SiteMercado.Data",
-        "projectPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
+        "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/SiteMercado.Data.csproj",
         "packagesPath": "/home/marcelo/.nuget/packages/",
-        "outputPath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Data/obj/",
+        "outputPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/marcelo/.nuget/NuGet/NuGet.Config"
@@ -145,7 +215,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj": {
+                "projectPath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -157,6 +231,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.sqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
