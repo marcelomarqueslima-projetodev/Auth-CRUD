@@ -1,0 +1,12 @@
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/bin/Debug/net5.0/SiteMercado.Business.deps.json
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/bin/Debug/net5.0/SiteMercado.Business.dll
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/bin/Debug/net5.0/ref/SiteMercado.Business.dll
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/bin/Debug/net5.0/SiteMercado.Business.pdb
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.csproj.AssemblyReference.cache
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.GeneratedMSBuildEditorConfig.editorconfig
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.AssemblyInfoInputs.cache
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.AssemblyInfo.cs
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.csproj.CoreCompileInputs.cache
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.dll
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/ref/SiteMercado.Business.dll
+/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/obj/Debug/net5.0/SiteMercado.Business.pdb
