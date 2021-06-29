@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Vx1kpG/78C9v7eOdVTvj9FwjgyczWAAbsom94K5qjLWi+wYVF2NeMToWp1fEZQn9DO/mOn+2PZqHfuk+2QDTmA==",
+  "dgSpecHash": "jmssRaddVjygvQU+2dpqXh8Fp+EATG05CZ93860YW70KKPdopjxOCZqxyIJ3qeBI+SjSVnSzmPDz3m0q9dvtew==",
   "success": true,
-  "projectFilePath": "/home/marcelo/Documentos/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/marcelo/Auth-CRUD/backend/src/SiteMercado.Business/SiteMercado.Business.csproj",
+  "expectedPackageFiles": [
+    "/home/marcelo/.nuget/packages/fluentvalidation/10.2.3/fluentvalidation.10.2.3.nupkg.sha512",
+    "/home/marcelo/.nuget/packages/fluentvalidation.aspnetcore/10.2.3/fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",
+    "/home/marcelo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.2.3/fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512",
+    "/home/marcelo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
