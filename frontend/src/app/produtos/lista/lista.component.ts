@@ -10,9 +10,9 @@ export class ListaComponent implements OnInit {
 
   constructor(private produtoService: ProdutoService) { }
 
-  public produtos: Produto[];
-  public imageURL: string;
-  errorMessage: string;
+  public produtos!: Produto[];
+  public imageURL!: string;
+  errorMessage!: string;
 
   ngOnInit() {
     this.produtoService.obterTodos()

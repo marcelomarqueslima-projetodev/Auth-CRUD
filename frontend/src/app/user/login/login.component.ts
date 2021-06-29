@@ -9,8 +9,8 @@ import { User } from '../user';
   templateUrl: './login.component.html'
 })
 export class LoginComponent implements OnInit {
-  userForm: FormGroup;
-  user: User;
+  userForm!: FormGroup;
+  user: User = new User;
   errors: any[] = [];
 
   constructor(private fb: FormBuilder,

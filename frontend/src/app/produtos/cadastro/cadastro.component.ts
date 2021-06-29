@@ -14,12 +14,12 @@ import { ProdutoService } from '../services/produtoService';
 })
 export class CadastroComponent implements OnInit {
 
-  produtoForm: FormGroup;
-  produto: Produto;
+  produtoForm!: FormGroup;
+  produto!: Produto;
   errors: any[] = [];
-  fornecedores: Fornecedor[];
+  fornecedores!: Fornecedor[];
   imagemForm: any;
-  imagemNome: string;
+  imagemNome!: string;
   imageBase64: any;
 
   constructor(private fb: FormBuilder,
@@ -75,7 +75,7 @@ export class CadastroComponent implements OnInit {
 
     let formdata = new FormData();
     produto.imagem = this.imagemNome;
-    produto.imagemUpload = null;
+    produto.imagemUpload = '';
 
     formdata.append('produto', JSON.stringify(produto));
     formdata.append('ImagemUpload', this.imagemForm, this.imagemNome);

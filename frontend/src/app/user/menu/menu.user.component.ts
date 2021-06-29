@@ -7,7 +7,7 @@ import { UserService } from '../userService';
 })
 export class MenuUserComponent {
 
-  saudacao: string;
+  saudacao!: string;
 
   constructor(private userService: UserService) {  }
 
